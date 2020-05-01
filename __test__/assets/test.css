@@ -1,0 +1,41 @@
+body {
+  background: #ccc;
+  height: 100vh;
+}
+
+.banner {
+  width: 375px;
+  height: 150px;
+  font-size: 23px; /*px*/
+  background-color: red;
+}
+
+.warp {
+  width: 375px;
+  height: 150px; /*no*/
+}
+
+@keyframes animate1 {
+  0%, 100% {
+    transform: none;
+  }
+  20%, 60% {
+    transform: rotate(-45deg);
+  }
+  40%, 80% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes animate2{
+  0% {
+    height: 75px;
+    width: 75px;
+    border: 1px solid #ddd; /*no*/
+  }
+  100% {
+    height: 150px;
+    width: 150px;
+    border: 2px solid #ddd; /*no*/
+  }
+}

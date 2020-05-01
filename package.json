@@ -1,0 +1,22 @@
+{
+  "name": "px2vw-css",
+  "version": "1.0.1",
+  "description": "将px转成vw",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "px",
+    "vw",
+    "css"
+  ],
+  "author": "chechengyi",
+  "license": "MIT",
+  "dependencies": {
+    "css": "^2.2.4"
+  },
+  "devDependencies": {
+    "jest": "^25.5.3"
+  }
+}

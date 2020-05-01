@@ -1,0 +1,55 @@
+body {
+  background: #ccc;
+  height: 100vh;
+}
+
+.banner {
+  width: 50vw;
+  height: 20vw;
+  background-color: red;
+}
+
+[data-dpr="1"] .banner {
+  font-size: 11.5px;
+}
+
+[data-dpr="2"] .banner {
+  font-size: 23px;
+}
+
+[data-dpr="3"] .banner {
+  font-size: 34.5px;
+}
+
+.warp {
+  width: 50vw;
+  height: 150px;
+}
+
+@keyframes animate1 {
+  0%, 100% {
+    transform: none;
+  }
+
+  20%, 60% {
+    transform: rotate(-45deg);
+  }
+
+  40%, 80% {
+    transform: rotate(45deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    height: 10vw;
+    width: 10vw;
+    border: 1px solid #ddd;
+  }
+
+  100% {
+    height: 20vw;
+    width: 20vw;
+    border: 2px solid #ddd;
+  }
+}
